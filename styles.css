@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #FCE0C8; /* Skin color */
+    background-color: #F5EFE7; /* Skin color */
 }
 
 #game-container {
@@ -41,28 +41,26 @@ body {
     left: 50px;
     width: 500px;
     padding: 50px;
-    background-color: #FFDB58;
+    background-color: #213555;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     outline: 2px solid black; /* Add black outline */
     display: inline-block;
+    color : #F5EFE7
 }
 
 #instruction-panel h1 {
     font-size: 38px;
-    color: #000080;
     margin-bottom: 10px;
 }
 
 #instruction-panel p {
     font-size: 28px;
-    color: #000080;
     margin-bottom: 10px;
 }
 
 #instruction-panel ul {
     font-size: 24px;
-    color: #000080;
     margin-left: 26px;
 }
 
@@ -72,11 +70,11 @@ body {
     left: 0;
     width: 100%;
     padding: 20px;
-    background-color: #FFDB58; 
+    background-color: #213555; 
  border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     outline: 2px solid black; /* Add black outline */
-    color: #000080;
+    color: #F5EFE7;
     font-size: 24px;
     text-align: center;
 }
