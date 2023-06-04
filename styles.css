@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FCE0C8; /* Skin color */
+}
+
+#game-container {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    margin: 50px 0px 0px 700px;  
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    outline: 2px solid black; /* Add black outline */
+    background-color: #8CC63E; /* Grass green */
+    display:inline-block;
+}
+
+.wall {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    background-color: #964B00; /* Fox Brown */
+}
+
+.ball {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    background-color: red;
+    animation: none;
+    border: 2px solid black; /* Add black outline */
+}
+
+#instruction-panel {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 500px;
+    padding: 50px;
+    background-color: #FFDB58;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    outline: 2px solid black; /* Add black outline */
+    display: inline-block;
+}
+
+#instruction-panel h1 {
+    font-size: 38px;
+    color: #000080;
+    margin-bottom: 10px;
+}
+
+#instruction-panel p {
+    font-size: 28px;
+    color: #000080;
+    margin-bottom: 10px;
+}
+
+#instruction-panel ul {
+    font-size: 24px;
+    color: #000080;
+    margin-left: 26px;
+}
+
+#game-description {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #FFDB58; 
+ border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    outline: 2px solid black; /* Add black outline */
+    color: #000080;
+    font-size: 24px;
+    text-align: center;
+}
+
+#ball1 {
+    left: 50px;
+}
+
+#ball2 {
+    left: 225px;
+}
+
+#ball3 {
+    left: 400px;
+}
+
+@keyframes bounce {
+    0% {
+        bottom: 0;
+    }
+    50% {
+        bottom: 350px;
+    }
+    100% {
+        bottom: 0;
+    }
+}
